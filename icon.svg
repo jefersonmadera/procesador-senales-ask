@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular azul -->
+  <circle cx="32" cy="32" r="30" fill="#2196F3" stroke="#1976D2" stroke-width="2"/>
+  
+  <!-- Onda de señal -->
+  <path d="M8 32 Q16 20 24 32 T40 32 T56 32" 
+        fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Puntos de muestreo -->
+  <circle cx="16" cy="26" r="2" fill="white"/>
+  <circle cx="24" cy="32" r="2" fill="white"/>
+  <circle cx="32" cy="38" r="2" fill="white"/>
+  <circle cx="40" cy="32" r="2" fill="white"/>
+  <circle cx="48" cy="26" r="2" fill="white"/>
+  
+  <!-- Antena/torre de transmisión -->
+  <rect x="52" y="8" width="2" height="12" fill="white"/>
+  <path d="M48 12 L56 12 M49 10 L55 10 M50 8 L54 8" stroke="white" stroke-width="1"/>
+  
+  <!-- Texto ASK pequeño -->
+  <text x="32" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">ASK</text>
+</svg>

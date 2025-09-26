@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Procesador de Señales Digitales
+Comment=Simulador de modulación ASK y procesamiento de señales
+Exec=java -Djava.awt.headless=false -jar "/home/jeferson/Documentos/TransmisionDocs/Project/projectSignal/projectSignals/dist/projectSignals.jar"
+Icon=/home/jeferson/Documentos/TransmisionDocs/Project/projectSignal/projectSignals/icon.png
+Path=/home/jeferson/Documentos/TransmisionDocs/Project/projectSignal/projectSignals/dist
+Terminal=false
+Categories=Education;Science;Electronics;
+StartupNotify=true
+MimeType=audio/wav;audio/mpeg;

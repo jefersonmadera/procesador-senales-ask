@@ -152,10 +152,14 @@ public class SignalProcessorGUI extends JFrame {
         resultsArea.setEditable(false);
         resultsArea.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 12));
         resultsArea.setBackground(new Color(248, 248, 248));
+        resultsArea.setForeground(new Color(33, 37, 41)); // Texto oscuro para mejor contraste
         
         scrollPane = new JScrollPane(resultsArea);
         scrollPane.setBorder(BorderFactory.createTitledBorder("Resultados del Procesamiento"));
         scrollPane.setPreferredSize(new Dimension(800, 400));
+        
+        // Mejorar contraste del scroll pane
+        scrollPane.getViewport().setBackground(new Color(248, 248, 248));
         
         centerPanel.add(scrollPane, BorderLayout.CENTER);
         
