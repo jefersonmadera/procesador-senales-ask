@@ -1,0 +1,36 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+dependency-reduced-pom.xml
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Audio samples (optional - descomenta si no quieres incluir archivos de ejemplo)
+# audio-samples/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Distribution (mantener dist/ si quieres incluir el JAR compilado)
+# dist/
